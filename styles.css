@@ -1,0 +1,54 @@
+  .navbar {
+    background-color: #fffbf7;
+    text-align: center;
+    color: #025157;
+    font-weight: 600;
+  }
+
+  /* .form-inline {
+    width: 25%;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .form-inline > * {
+    margin-right: 30px;
+    margin-left: 5px;
+  }
+  .form-inline a {
+    color: #67b54b;
+  }
+  .form-inline button {
+    color: white;
+    /* padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px; */
+  } */
+
+.footers a {color:#696969;}
+.footers p {color:#696969;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ 
+  /* .navbar-light .nav-item .nav-link {
+    color: #025157;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border-color: #025157;
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  } */
+
+  
+  
+
+  

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link  rel="icon"   href="images/favicon.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+    <!--FIN BOOTSTRAP-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Matcha</title>
+</head>
+<body>
+       
+<!--BARRA DE NAVEGACIÓN BOOTSTRAP-->           
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+    <a class="navbar-brand" href="#">
+      <img
+      src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
+      alt="Matcha"/>
+    </a>
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    >
+    <span class="navbar-toggler-icon"></span>
+    </button>
+                    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link mr-5 dropdown-toggle" href="#" id="navbarDropdown"role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Productos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Creador de blogs</a>
+              <a class="dropdown-item" href="#">Biblioteca de contenido</a>
+            </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link mr-5" href="#">Plantillas</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link mr-5" href="#">Precios</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link mr-5" href="#">Clientes</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link mr-5" href="#">Blog</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link mr-5" href="#">Recursos</a>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a class="mr-2">Sign In</a>
+        <div col-12 col-md-3>
+          <button class="btn btn-block btn-success">Start free trial</button>
+        </div>
+      </form>
+    </div>
+  </nav> 
+
+<!-- Masthead -->
+<header class="masthead text-black text-center">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto mb-5">
+        <h1 class="text-success mb-5">Crea tu blog. Desarrolle su negocio.</h1>
+        <h4 class="text-primary">Publique artículos al instante, genere más tráfico, haga crecer su lista de correo electrónico y
+          vea el impacto de su blog en las ventas.</h4>
+      </div>
+      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <form>
+          <div class="form-row mb-5">
+            <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <input type="email" class="form-control form-control-lg" placeholder="Ingrese su Email...">
+            </div>
+            <div class="col-12 col-md-3">
+              <button type="submit" class="btn btn-block btn-lg btn-success">Sign up!</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container row justify-content-center mb-5">
+    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Capterra" class="img-fluid"> 
+  </div>
+
+<!--FORMULARIO-->
+<div class="container">
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Nombre:</label>
+      <input type="text" class="form-control" id="name" placeholder="Escriba su nombre" name="name">
+    </div>
+    <div class="form-group">
+      <label for="last-name">Apellido:</label>
+      <input type="text" class="form-control" id="last-name" placeholder="Escriba su apellido" name="last-name">
+    </div>
+    <div class="form-group">
+      <label for="age">Edad:</label>
+      <input type="text" class="form-control" id="age" placeholder="Escriba su edad" name="age">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" placeholder="Escriba su Email">
+      </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Escriba su contraseña" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Recordarme</label>
+    </div>
+    <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+  </form>
+</div>
+<!--FIN FORMULARIO-->
+
+<!--VIDEO-->
+<hr class="my-5">
+<section>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <h2 class="text-success">Publique en su blog en minutos, no en horas.</h2>
+          <p class="text-muted">Su blog es su activo más poderoso para construir, involucrar y retener una 
+            audiencia leal. Pero no tienes horas para crear contenido que puede funcionar o no. 
+            Con Matcha, publique instantáneamente desde nuestra biblioteca de más de 10,000 artículos 
+            escritos profesionalmente y cree su lista de correo electrónico más rápido con nuestra 
+            poderosa herramienta de conversión.</p>
+            <div class="form-row mb-5">
+              <h5 class="text-success">Empiece a publicar hoy:</h5>
+                <div class="col-12 col-md-8 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Ingrese su Email...">
+                </div>
+                <div class="col-12 col-md-4">
+                  <button type="submit" class="btn btn-block btn-lg btn-success">Sign up!</button>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" 
+            src="https://www.youtube.com/embed/LyNLa5R9NgM" 
+            allowfullscreen></iframe>
+          </div>
+    </div>
+  </div>
+</section>
+<hr class="my-5">
+<!--FIN VIDEO-->
+
+<!--CARD-->
+<div class="container">   
+    <div class="card-group mt-2">
+
+      <div class="card text-center border-info">
+          <img class="card-img-top" src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_publish.png" alt="Card image cap">
+        <div class="card-body">
+            <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_publish.png"
+            alt="Publish icon"
+          />
+          <h4 class="card-title">Llene su blog con artículos atractivos.</h4>
+          <p class="card-text">Publique en su blog en menos tiempo del que necesita para tomar su café matutino. </p>
+          <a href="#" class="btn btn-success">Publica instantáneamente</a>
+        </div>
+      </div>          
+
+      <div class="card text-center border-info">
+          <img class="card-img-top" src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_site_traffic.png" alt="Card image cap">
+        <div class="card-body">
+            <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_site_traffic.png"
+            alt="Site traffic icon"
+          />
+          <h4 class="card-title">Atraiga e involucre a más visitantes del sitio web.</h4>
+          <p class="card-text">Mejore su correo electrónico, canales de redes sociales y anuncios pagados con contenido de Matcha. </p>
+          <a href="#" class="btn btn-success">Obtenga más visitas en el sitio</a>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="container">   
+      <div class="card-group mt-2 mb-5">
+  
+        <div class="card text-center border-info">
+            <img class="card-img-top" src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_capture.png" alt="Card image cap">
+          <div class="card-body">
+              <img
+              src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_capture.png"
+              alt="Capture icon"
+            />
+            <h4 class="card-title">Capture más correos electrónicos con contenido bloqueado.</h4>
+            <p class="card-text">Convierta 10 veces más de sus visitas en suscriptores y motívelos a una venta. </p>
+            <a href="#" class="btn btn-success">Haga crecer su lista de correo electrónico más rápido</a>
+          </div>
+        </div>          
+  
+        <div class="card text-center border-info">
+            <img class="card-img-top" src="https://getmatcha.com/wp-content/themes/getmatcha/img/image_roi.png" alt="Card image cap">
+          <div class="card-body">
+              <figure>
+                  <img
+                    src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_roi.png"
+                    alt="ROI icon"
+                  />
+            <h4 class="card-title">Optimiza el rendimiento de tu blog.</h4>
+            <p class="card-text">Vea qué contenido genera más visitas, participación, suscriptores de correo electrónico y ventas. </p>
+            <a href="#" class="btn btn-success">Ver el ROI del contenido</a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  
+<!--FIN CARD-->
+<section class="footers bg-light pt-5 pb-3">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 footers-one">
+             <div class="footers-logo">
+                 <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo" style="width:120px;">
+             </div>
+             <div class="footers-info mt-3">
+                 <p>Obtenga los últimos consejos y tendencias para el marketing de comercio electrónico con el matcha matutino semanal.</p>
+             </div>
+             <div class="social-icons"> 
+                <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                <a class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+                <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                <a class="li-ic mr-3" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a>
+              </div>
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+             <h5>Productos </h5>
+             <ul class="list-unstyled">
+            <li><a href="">Creador de blogs</a></li>
+            <li><a href="">Biblioteca de contenidos</a></li>
+           </ul>
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+             <h5>Matcha </h5>
+             <ul class="list-unstyled">
+            <li><a href="">Acerca de</a></li>
+            <li><a href="">Historia</a></li>
+            <li><a href="">Equipo</a></li>
+            <li><a href="">Carreras</a></li>
+           </ul>
+         </div>
+          <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
+             <h5>Recursos </h5>
+             <ul class="list-unstyled">
+            <li><a href="">Privacidad</a></li>
+            <li><a href="">Condiciones</a></li>
+            <li><a href="">Apoyo</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Programa de referencia</a></li>
+           </ul>
+         </div>
+         
+        </div>
+    </div>
+ </section>
+ <section class="copyright border">
+     <div class="container">
+         <div class="row text-center">
+             <div class="col-md-12 pt-3">
+                 <p class="text-muted">© 2020 Matcha. Todos los derechos reservados</p>
+             </div>
+         </div>
+     </div>
+ </section>
+
+
+<!--SCRIPTS-->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+  
+    
+</body>
+</html>
